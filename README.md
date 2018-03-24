@@ -25,5 +25,5 @@ Save current flow to file:
 Copy current flow to clipboard:
 
 ```sh
-: request.clip @focus test.py
+: request.clip @focus
 ```
