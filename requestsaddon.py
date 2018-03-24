@@ -161,7 +161,7 @@ class RequestsAddon:
             'cookies': cookies
         })
 
-    @command.command("requests.clip")
+    @command.command('requests.clip')
     def req_clip(
             self,
             flows: typing.Sequence[flow.Flow]) -> None:  # noqa
@@ -174,7 +174,7 @@ class RequestsAddon:
         pyperclip.copy(r)
         ctx.log.alert('{} bytes copied to clipboard'.format(len(r)))
 
-    @command.command("requests.file")
+    @command.command('requests.file')
     def req_file(
             self,
             flows: typing.Sequence[flow.Flow],
